@@ -1,0 +1,303 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+body{
+background-color: black;
+height: 1350px;
+}
+
+header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+}
+
+#h1{
+    display: flex;
+    color: white;
+font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-size: 40px;
+justify-content: flex-start;
+}
+
+#h2{
+    display: flex;
+    color: #FFFFFF80;
+font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-size: 12px;
+justify-content: center;
+}
+
+#ul1{
+display: flex;
+list-style: none;
+justify-content: space-around;
+}
+.li1{
+    padding-right: 20px;
+}
+.li1:hover{
+color: #20c997;
+}
+
+.rede1{
+width: 9px;
+padding-right: 20px;
+}
+.rede2{
+    width: 17px;
+    padding-right: 20px;
+}
+.rede2:hover{
+    fill: white;
+    transition: 1s;
+}
+.rede1:hover{
+    fill: white;
+    transition: 1s;
+}
+
+#submenu{
+display: none;
+position: absolute;
+background-color: white;
+transition: 1s;
+width: 150px;
+}
+
+#submenu1{
+    list-style: none;
+    color: black;
+    background-color: white;
+    border-top: #20c997 2px solid;
+    padding-left: 10px;
+    position: absolute;
+    z-index: +56;
+}
+
+#galeria:hover #submenu{
+    display: block;
+}
+
+#submenu:hover{
+display: block;
+}
+
+.lista{
+    padding-bottom: 10px;
+}
+
+#h3{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+    position: relative;
+    width: 100%;
+    z-index: +21;
+}
+
+.imgages{
+    filter: saturate(0%);
+    transition: .3s;
+    overflow: hidden;
+}
+
+.imgages:hover{
+    filter: saturate(100%);
+    transform: scale(1.01);
+    filter: brightness(80%);
+}
+
+
+
+section{
+    color: #FFFFFF80;
+    font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px;
+    position: relative;
+    z-index: +20;
+}
+
+#copy{
+    color: #20c997;
+}
+
+#buto1{
+    font-size: 35px;
+    font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: +25;
+    width: 100%;
+    bottom: 1100px;
+}
+
+.eq1{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    position: relative;
+    left: 150px;
+}
+
+.ct1{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+.dr1{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    position: relative;
+    right: 150px;
+}
+
+#buto2{
+    font-size: 35px;
+    font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+    z-index: +25;
+    bottom: 750px;
+}
+
+#buto3{
+    font-size: 35px;
+    font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    z-index: +25;
+    bottom: 400px;
+}
+
+#an1{
+    padding-right: 100px;
+}
+
+#an2{
+    padding-left: 100px;
+}
+
+#buton1{
+    font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    z-index: +28;
+    bottom: 1160px;
+}
+
+.butao1{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    right: 20px;
+    border: solid 1px white;
+    transition: 0.3s;
+}
+.butao2{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: solid 1px white;
+    align-items: center;
+    position: relative;
+    right: 50px;
+    transition: 0.3s;
+}
+
+.butao3{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 20px;
+    border: solid 1px white;
+    transition: 0.3s;
+}
+
+.butao1:hover{
+    background-color: white;
+    color: black;
+}
+.butao2:hover{
+    background-color: white;
+    color: black;
+}
+.butao3:hover{
+    background-color: white;
+    color: black;
+}
+#buton2{
+    font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    z-index: +28;
+    bottom: 800px;
+}
+#buton3{
+    font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    z-index: +28;
+    bottom: 460px;
+}
+
+#copy:hover{
+    filter: brightness(80%);
+}
+
+#homes{
+ color: #20c997;
+}
+
+a{
+    color: #777;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #20c997;
+}

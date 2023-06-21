@@ -1,0 +1,228 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+        
+    body{
+    background-color: black;
+    height: 1800px;
+    }
+        
+    header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+        width: 100%;
+    }
+        
+    #h1{
+    display: flex;
+    color: white;
+    font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 40px;
+    justify-content: flex-start;
+    }
+        
+    #h2{
+    display: flex;
+    color: #FFFFFF80;
+    font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 12px;
+    justify-content: center;
+    }
+        
+    #ul1{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    }
+    .li1{
+    padding-right: 20px;
+    }
+    .li1:hover{
+    color: #20c997;
+    }
+        
+    .rede1{
+    width: 9px;
+    padding-right: 20px;
+    fill: #777;
+    }
+    .rede2{
+    width: 17px;
+    padding-right: 20px;
+    fill: #777;
+    }
+    .rede2:hover{
+    fill: white;
+    transition: 1s;
+    }
+    .rede1:hover{
+    fill: white;
+    transition: 1s;
+    }
+        
+    #submenu{
+    display: none;
+    position: absolute;
+    background-color: white;
+    transition: 1s;
+    width: 150px;
+    }
+        
+    #submenu1{
+    list-style: none;
+    color: black;
+    background-color: white;
+    border-top: #20c997 2px solid;
+    padding-left: 10px;
+    position: absolute;
+    z-index: +56;
+    }
+        
+    #galeria:hover #submenu{
+    display: block;
+    }
+        
+    #submenu:hover{
+    display: block;
+    }
+        
+    .lista{
+    padding-bottom: 10px;
+    }
+        
+    #h3{
+    display: flex;
+    justify-content: flex-end;
+    }
+    
+    #titu{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 60px;
+    position: relative;
+    top: 100px;
+    }
+
+    .imgages{
+        filter: saturate(0%);
+        transition: .3s;
+        overflow: hidden;
+    }
+    
+    .imgages:hover{
+        filter: saturate(100%);
+        transform: scale(1.01);
+    }
+
+    #p1{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        color: #777;
+        font-size: 16px;
+        font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        position: relative;
+        top: 200px;
+
+    }
+    #misio{
+        font-size: 35px;
+        color: white;
+    }
+    #p11{
+        width: 30%;
+    }
+
+    .imgg{
+        border-radius: 100%;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        color: #777;
+        font-size: 16px;
+        font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        position: relative;
+        width: 100%;
+        top: 320px;
+    }
+
+    .imgages1{
+        filter: saturate(0%);
+        transition: .3s;
+        overflow: hidden;
+        border-radius: 100%;
+    }
+    
+    .imgages1:hover{
+        filter: saturate(100%);
+        transform: scale(1.01);
+    }
+
+    .t{
+        text-align: center;
+        width: 30%;
+        align-items: center;
+    }
+
+    .rede11{
+        width: 9px;
+        padding-right: 20px;
+        transition: .1s;
+    }
+
+    .rede22{
+        width: 17px;
+        padding-right: 20px;
+        transition: .1s;
+    }
+
+    .rede11:hover{
+        filter: brightness(80%);
+    }
+    .rede22:hover{
+        filter: brightness(80%);
+    }
+
+    section{
+        color: #FFFFFF80;
+        font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-top: 30px;
+        position: relative;
+        top: 500px;
+        z-index: +20;
+    }
+    
+    #copy{
+        color: #20c997;
+    }
+    
+    #copy:hover{
+        filter: brightness(80%);
+    }
+
+    #abo{
+        color: #20c997;
+    }
+
+    a{
+        color: #777;
+        text-decoration: none;
+    }
+    
+    a:hover{
+        color: #20c997;
+    }
+
+
+
